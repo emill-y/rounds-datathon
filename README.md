@@ -1,5 +1,5 @@
 # Rounds: catching deteriorating patients when vitals are incomplete
-Datathon for Social Good 2025 · Track 1: Public Health Risk
+Datathon for Social Good 2026 · Track 1: Public Health Risk
 
 ## Project links
 | | |
