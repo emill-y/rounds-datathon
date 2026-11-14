@@ -1,6 +1,13 @@
 # Rounds: catching deteriorating patients when vitals are incomplete
 Datathon for Social Good 2025 · Track 1: Public Health Risk
 
+## Project links
+| | |
+|---|---|
+| **Run the notebook (Colab)** | [Open in Colab](https://colab.research.google.com/github/emill-y/rounds-datathon/blob/main/Rounds_Track1.ipynb) |
+| **Tableau dashboards** | [Rounds on Tableau Public](https://public.tableau.com/shared/5FJJP2ZQ5?:display_count=n&:origin=viz_share_link): 1 Patient Priority · 2 NEWS2 vs Rounds · 3 Failure-to-Rescue Map (use the tabs at the top) |
+| **Code and data** | this repository |
+
 **Problem.** In US hospitals, about 3,400 surgical patients a year die from treatable complications beyond what the best-performing hospitals achieve (CMS failure-to-rescue measure, 2023–2025). These deaths concentrate in socially vulnerable and rural communities, and in hospitals where patients wait longest for help. On busy wards vitals get skipped or guessed, and the standard warning score (NEWS2) quietly stops working.
 
 **What we built.** *Rounds* is a model that predicts a patient's risk level from whatever vitals were actually measured, plus a data-driven "60-second check" telling nurses which vitals to take first.
