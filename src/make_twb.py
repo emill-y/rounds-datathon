@@ -96,7 +96,7 @@ class Sheet:
         if self.filt:
             col, member = self.filt
             fq = use((col, 'None'))
-            lvl = fq.split('.', 1)[1]
+            lvl = fq[len('[' + ds.name + '].'):]
             filt = (f'<filter class="categorical" column={qa(fq)}><groupfilter function="member" level={qa(lvl)} '
                     f'member={qa(chr(34) + member + chr(34))} user:ui-domain="database" user:ui-enumeration="inclusive" '
                     f'user:ui-marker="enumerate" /></filter><slices><column>{escape(fq)}</column></slices>')
@@ -123,8 +123,7 @@ class Sheet:
                 f'{filt}<aggregation value="true" /></view><style />'
                 f'<panes><pane selection-relaxation-option="selection-relaxation-allow"><view><breakdown value="auto" /></view>'
                 f'<mark class={qa(self.mark)} /><encodings>{enc}</encodings></pane></panes>'
-                f'<rows>{escape(rows)}</rows><cols>{escape(cols)}</cols></table>'
-                f'<simple-id uuid={qa("{" + str(uuid.uuid4()).upper() + "}")} /></worksheet>')
+                f'<rows>{escape(rows)}</rows><cols>{escape(cols)}</cols></table></worksheet>')
 
 
 def dashboard(name, title, layout):
@@ -141,8 +140,7 @@ def dashboard(name, title, layout):
     return (f'<dashboard name={qa(name)}><style /><size maxheight="900" maxwidth="1400" minheight="900" minwidth="1400" />'
             f'<zones><zone h="100000" id="1" type-v2="layout-basic" w="100000" x="0" y="0">'
             f'<zone h="8000" id="2" type-v2="title" w="100000" x="0" y="0" />'
-            f'{inner}</zone></zones>'
-            f'<simple-id uuid={qa("{" + str(uuid.uuid4()).upper() + "}")} /></dashboard>')
+            f'{inner}</zone></zones></dashboard>')
 
 
 def main():
@@ -196,8 +194,9 @@ def main():
         dashboard('3 Failure-to-Rescue Map', 'National failure-to-rescue (CMS ISCMR)',
                   [['Excess deaths by state', 'Hospitals'], ['By community vulnerability', 'By response time']]),
     ]
-    windows = ''.join(f'<window class="worksheet" name={qa(s.name)} />' for s in sheets) + \
-              ''.join(f'<window class="dashboard" name={qa(n)} />' for n in ['1 Patient Priority', '2 NEWS2 vs Rounds', '3 Failure-to-Rescue Map'])
+    CARDS = '<cards><edge name="left"><strip size="160"><card type="pages" /><card type="filters" /><card type="marks" /></strip></edge><edge name="top"><strip size="2147483647"><card type="columns" /></strip><strip size="2147483647"><card type="rows" /></strip><strip size="31"><card type="title" /></strip></edge></cards>'
+    windows = ''.join(f'<window class="worksheet" name={qa(s.name)}>{CARDS}</window>' for s in sheets) + \
+              ''.join(f'<window class="dashboard" name={qa(n)}><cards /></window>' for n in ['1 Patient Priority', '2 NEWS2 vs Rounds', '3 Failure-to-Rescue Map'])
     twb = ("<?xml version='1.0' encoding='utf-8' ?>\n"
            "<workbook original-version='18.1' source-build='2023.3.0 (20233.23.1017.0948)' source-platform='win' version='18.1' "
            "xmlns:user='http://www.tableausoftware.com/xml/user'>"
