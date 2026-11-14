@@ -1,0 +1,41 @@
+Bed,Patient,Dataset_ID,RR,SpO2,BP,HR,Temp,ACVPU,On_Oxygen,P_High,P_Medium,P_Low,P_Normal,Rounds_risk,NEWS2_score_today,NEWS2_risk_today,Missing_count,Missing_vitals,Next_measurement,Priority_score,Priority_rank,NEWS2_would_miss,True_risk_validation_only
+Bed 04,PT-1021,P0875,,,,99.0,41.8,U,1,1.0,0.0,0.0,0.0,High,8,High,3,"RR, SpO2, BP",RR,1.0,1,No,High
+Bed 06,PT-1035,P0786,26.0,89.0,,137.0,39.5,U,1,1.0,0.0,0.0,0.0,High,16,High,1,BP,BP,1.0,2,No,High
+Bed 07,PT-1042,P0778,25.0,91.0,88.0,,40.3,,0,1.0,0.0,0.0,0.0,High,11,High,2,"HR, ACVPU",HR,1.0,3,No,High
+Bed 10,PT-1063,P0758,29.0,96.0,81.0,133.0,40.1,A,1,1.0,0.0,0.0,0.0,High,13,High,0,none,"none, all charted",1.0,4,No,High
+Bed 22,PT-1147,P0937,29.0,89.0,,134.0,38.6,,1,1.0,0.0,0.0,0.0,High,12,High,2,"BP, ACVPU",BP,1.0,5,No,High
+Bed 32,PT-1217,P0798,29.0,91.0,89.0,108.0,,,1,0.999,0.001,0.0,0.0,High,12,High,2,"Temp, ACVPU",ACVPU,1.0,6,No,High
+Bed 36,PT-1245,P0873,24.0,86.0,,114.0,,,1,1.0,0.0,0.0,0.0,High,9,High,3,"BP, Temp, ACVPU",BP,1.0,7,No,High
+Bed 37,PT-1252,P0862,,88.0,101.0,127.0,37.5,,1,0.999,0.001,0.0,0.0,High,8,High,2,"RR, ACVPU",RR,1.0,8,No,High
+Bed 13,PT-1084,P0949,,90.0,102.0,109.0,40.6,A,0,0.985,0.014,0.0,0.0,High,7,High,1,RR,RR,0.992,9,No,High
+Bed 11,PT-1070,P0753,,,,,38.6,A,1,0.797,0.203,0.0,0.0,High,3,Low,4,"RR, SpO2, BP, HR",RR,0.899,10,Yes,High
+Bed 05,PT-1028,P0617,,90.0,,105.0,37.8,A,1,0.287,0.712,0.0,0.0,Medium,6,Medium,2,"RR, BP",RR,0.643,11,No,Medium
+Bed 09,PT-1056,P0543,23.0,90.0,,110.0,,,0,0.083,0.916,0.0,0.0,Medium,6,Medium,3,"BP, Temp, ACVPU",BP,0.541,12,No,Medium
+Bed 16,PT-1105,P0442,,94.0,,97.0,37.7,,1,0.019,0.977,0.003,0.0,Medium,4,Low,3,"RR, BP, ACVPU",RR,0.507,13,No,Medium
+Bed 03,PT-1014,P0644,,,106.0,98.0,,A,0,0.008,0.991,0.001,0.0,Medium,2,Low,3,"RR, SpO2, Temp",RR,0.503,14,No,Medium
+Bed 28,PT-1189,P0443,,,,89.0,38.8,A,0,0.006,0.994,0.0,0.0,Medium,1,Low,3,"RR, SpO2, BP",RR,0.503,15,No,Medium
+Bed 21,PT-1140,P0521,19.0,,,97.0,38.1,,1,0.001,0.99,0.008,0.0,Medium,4,Low,3,"SpO2, BP, ACVPU",SpO2,0.496,16,No,Medium
+Bed 35,PT-1238,P0529,21.0,92.0,119.0,110.0,37.4,,0,0.001,0.958,0.041,0.0,Medium,5,Medium,1,ACVPU,ACVPU,0.48,17,No,Medium
+Bed 23,PT-1154,P0335,,,,101.0,,A,0,0.014,0.799,0.186,0.001,Medium,1,Low,4,"RR, SpO2, BP, Temp",RR,0.414,18,No,Low
+Bed 29,PT-1196,P0404,,96.0,,94.0,,,0,0.007,0.393,0.6,0.001,Low,1,Low,4,"RR, BP, Temp, ACVPU",RR,0.204,19,No,Low
+Bed 12,PT-1077,P0685,,94.0,113.0,97.0,,,1,0.0,0.361,0.638,0.0,Low,4,Low,3,"RR, Temp, ACVPU",RR,0.18,20,No,Medium
+Bed 02,PT-1007,P0590,,96.0,103.0,,,,0,0.007,0.271,0.721,0.001,Low,1,Low,4,"RR, HR, Temp, ACVPU",RR,0.143,21,No,Medium
+Bed 01,PT-1000,P0676,20.0,,122.0,99.0,38.1,,0,0.0,0.246,0.754,0.0,Low,2,Low,2,"SpO2, ACVPU",SpO2,0.123,22,No,Medium
+Bed 24,PT-1161,P0355,,95.0,106.0,,36.8,,1,0.004,0.172,0.824,0.0,Low,4,Low,3,"RR, HR, ACVPU",RR,0.09,23,No,Low
+Bed 17,PT-1112,P0311,16.0,94.0,,,,,0,0.0,0.139,0.86,0.001,Low,1,Low,4,"BP, HR, Temp, ACVPU",BP,0.07,24,No,Low
+Bed 31,PT-1210,P0310,21.0,96.0,118.0,93.0,37.8,,0,0.0,0.138,0.861,0.0,Low,3,Low,1,ACVPU,ACVPU,0.069,25,No,Low
+Bed 40,PT-1273,P0036,,,114.0,82.0,36.8,A,0,0.0,0.082,0.532,0.386,Low,0,Normal,2,"RR, SpO2",RR,0.041,26,No,Normal
+Bed 38,PT-1259,P0275,20.0,,,78.0,37.6,A,0,0.002,0.018,0.973,0.007,Low,0,Normal,2,"SpO2, BP",SpO2,0.011,27,No,Low
+Bed 30,PT-1203,P0250,17.0,,,82.0,37.0,,1,0.0,0.007,0.992,0.001,Low,2,Low,3,"SpO2, BP, ACVPU",SpO2,0.004,28,No,Low
+Bed 39,PT-1266,P0223,,97.0,128.0,,37.6,A,0,0.001,0.006,0.987,0.006,Low,0,Normal,2,"RR, HR",RR,0.004,29,No,Low
+Bed 18,PT-1119,P0280,16.0,96.0,124.0,,35.6,A,0,0.0,0.006,0.942,0.052,Low,1,Low,1,HR,HR,0.003,30,No,Low
+Bed 20,PT-1133,P0226,,94.0,101.0,87.0,36.3,,0,0.001,0.003,0.996,0.0,Low,2,Low,2,"RR, ACVPU",RR,0.002,31,No,Low
+Bed 33,PT-1224,P0142,,97.0,,,36.8,,0,0.001,0.0,0.085,0.914,Normal,0,Normal,4,"RR, BP, HR, ACVPU",RR,0.001,32,No,Normal
+Bed 08,PT-1049,P0016,13.0,96.0,120.0,76.0,,A,0,0.0,0.0,0.013,0.986,Normal,0,Normal,1,Temp,Temp,0.0,33,No,Normal
+Bed 14,PT-1091,P0090,,96.0,121.0,75.0,36.6,A,0,0.0,0.0,0.0,0.999,Normal,0,Normal,1,RR,RR,0.0,34,No,Normal
+Bed 15,PT-1098,P0093,,98.0,,73.0,,,0,0.0,0.0,0.003,0.997,Normal,0,Normal,4,"RR, BP, Temp, ACVPU",RR,0.0,35,No,Normal
+Bed 19,PT-1126,P0123,16.0,,,82.0,36.3,A,0,0.0,0.0,0.29,0.709,Normal,0,Normal,2,"SpO2, BP",SpO2,0.0,36,No,Normal
+Bed 25,PT-1168,P0110,,,123.0,67.0,36.5,,0,0.0,0.0,0.012,0.988,Normal,0,Normal,3,"RR, SpO2, ACVPU",RR,0.0,37,No,Normal
+Bed 26,PT-1175,P0005,19.0,98.0,115.0,76.0,,,0,0.0,0.0,0.032,0.968,Normal,0,Normal,2,"Temp, ACVPU",ACVPU,0.0,38,No,Normal
+Bed 27,PT-1182,P0119,17.0,99.0,130.0,74.0,,A,0,0.0,0.0,0.0,1.0,Normal,0,Normal,1,Temp,Temp,0.0,39,No,Normal
+Bed 34,PT-1231,P0111,,,137.0,,37.1,,0,0.0,0.0,0.021,0.979,Normal,0,Normal,4,"RR, SpO2, HR, ACVPU",RR,0.0,40,No,Normal

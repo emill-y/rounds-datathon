@@ -30,7 +30,7 @@ Datathon for Social Good 2025 · Track 1: Public Health Risk
 
 \* Trimmed to the measures and columns we use so they fit on GitHub (the raw HCAHPS file is about 170 MB). `python src/make_trimmed_data.py <raw_dir> data` rebuilds them from the original downloads.
 
-`src/` has the same analysis as plain scripts, plus `next_vital.py`, an adaptive measurement policy we tested and rejected. `tableau/` has the dashboard extracts and build guide. `outputs/` has the figures.
+`src/` has the same analysis as plain scripts, plus `next_vital.py`, an adaptive measurement policy we tested and rejected. `tableau/` has the data for three Tableau dashboards (Patient Priority, NEWS2 vs Rounds under missing vitals, and a national failure-to-rescue map), built by `src/tableau_exports.py`, along with a click-by-click `DASHBOARD_GUIDE.md`. `outputs/` has the figures.
 
 ## Limitations
 Labels are a formula, not outcomes. There are 1,000 patients, no demographics, and no time series. Pulse-oximeter bias on darker skin affects any SpO2-based score. Missingness is tested exhaustively rather than observed. Hospital findings are associations, not causes. See notebook sections 9 and 11.

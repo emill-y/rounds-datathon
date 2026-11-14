@@ -1,0 +1,241 @@
+Bed,Patient,Priority_rank,Rounds_risk,Vital,Value,Status,Is_next,Vital_order
+Bed 04,PT-1021,1,High,RR,,Missing,Measure next,1
+Bed 06,PT-1035,2,High,RR,26.0,Charted,,1
+Bed 07,PT-1042,3,High,RR,25.0,Charted,,1
+Bed 10,PT-1063,4,High,RR,29.0,Charted,,1
+Bed 22,PT-1147,5,High,RR,29.0,Charted,,1
+Bed 32,PT-1217,6,High,RR,29.0,Charted,,1
+Bed 36,PT-1245,7,High,RR,24.0,Charted,,1
+Bed 37,PT-1252,8,High,RR,,Missing,Measure next,1
+Bed 13,PT-1084,9,High,RR,,Missing,Measure next,1
+Bed 11,PT-1070,10,High,RR,,Missing,Measure next,1
+Bed 05,PT-1028,11,Medium,RR,,Missing,Measure next,1
+Bed 09,PT-1056,12,Medium,RR,23.0,Charted,,1
+Bed 16,PT-1105,13,Medium,RR,,Missing,Measure next,1
+Bed 03,PT-1014,14,Medium,RR,,Missing,Measure next,1
+Bed 28,PT-1189,15,Medium,RR,,Missing,Measure next,1
+Bed 21,PT-1140,16,Medium,RR,19.0,Charted,,1
+Bed 35,PT-1238,17,Medium,RR,21.0,Charted,,1
+Bed 23,PT-1154,18,Medium,RR,,Missing,Measure next,1
+Bed 29,PT-1196,19,Low,RR,,Missing,Measure next,1
+Bed 12,PT-1077,20,Low,RR,,Missing,Measure next,1
+Bed 02,PT-1007,21,Low,RR,,Missing,Measure next,1
+Bed 01,PT-1000,22,Low,RR,20.0,Charted,,1
+Bed 24,PT-1161,23,Low,RR,,Missing,Measure next,1
+Bed 17,PT-1112,24,Low,RR,16.0,Charted,,1
+Bed 31,PT-1210,25,Low,RR,21.0,Charted,,1
+Bed 40,PT-1273,26,Low,RR,,Missing,Measure next,1
+Bed 38,PT-1259,27,Low,RR,20.0,Charted,,1
+Bed 30,PT-1203,28,Low,RR,17.0,Charted,,1
+Bed 39,PT-1266,29,Low,RR,,Missing,Measure next,1
+Bed 18,PT-1119,30,Low,RR,16.0,Charted,,1
+Bed 20,PT-1133,31,Low,RR,,Missing,Measure next,1
+Bed 33,PT-1224,32,Normal,RR,,Missing,Measure next,1
+Bed 08,PT-1049,33,Normal,RR,13.0,Charted,,1
+Bed 14,PT-1091,34,Normal,RR,,Missing,Measure next,1
+Bed 15,PT-1098,35,Normal,RR,,Missing,Measure next,1
+Bed 19,PT-1126,36,Normal,RR,16.0,Charted,,1
+Bed 25,PT-1168,37,Normal,RR,,Missing,Measure next,1
+Bed 26,PT-1175,38,Normal,RR,19.0,Charted,,1
+Bed 27,PT-1182,39,Normal,RR,17.0,Charted,,1
+Bed 34,PT-1231,40,Normal,RR,,Missing,Measure next,1
+Bed 04,PT-1021,1,High,SpO2,,Missing,,2
+Bed 06,PT-1035,2,High,SpO2,89.0,Charted,,2
+Bed 07,PT-1042,3,High,SpO2,91.0,Charted,,2
+Bed 10,PT-1063,4,High,SpO2,96.0,Charted,,2
+Bed 22,PT-1147,5,High,SpO2,89.0,Charted,,2
+Bed 32,PT-1217,6,High,SpO2,91.0,Charted,,2
+Bed 36,PT-1245,7,High,SpO2,86.0,Charted,,2
+Bed 37,PT-1252,8,High,SpO2,88.0,Charted,,2
+Bed 13,PT-1084,9,High,SpO2,90.0,Charted,,2
+Bed 11,PT-1070,10,High,SpO2,,Missing,,2
+Bed 05,PT-1028,11,Medium,SpO2,90.0,Charted,,2
+Bed 09,PT-1056,12,Medium,SpO2,90.0,Charted,,2
+Bed 16,PT-1105,13,Medium,SpO2,94.0,Charted,,2
+Bed 03,PT-1014,14,Medium,SpO2,,Missing,,2
+Bed 28,PT-1189,15,Medium,SpO2,,Missing,,2
+Bed 21,PT-1140,16,Medium,SpO2,,Missing,Measure next,2
+Bed 35,PT-1238,17,Medium,SpO2,92.0,Charted,,2
+Bed 23,PT-1154,18,Medium,SpO2,,Missing,,2
+Bed 29,PT-1196,19,Low,SpO2,96.0,Charted,,2
+Bed 12,PT-1077,20,Low,SpO2,94.0,Charted,,2
+Bed 02,PT-1007,21,Low,SpO2,96.0,Charted,,2
+Bed 01,PT-1000,22,Low,SpO2,,Missing,Measure next,2
+Bed 24,PT-1161,23,Low,SpO2,95.0,Charted,,2
+Bed 17,PT-1112,24,Low,SpO2,94.0,Charted,,2
+Bed 31,PT-1210,25,Low,SpO2,96.0,Charted,,2
+Bed 40,PT-1273,26,Low,SpO2,,Missing,,2
+Bed 38,PT-1259,27,Low,SpO2,,Missing,Measure next,2
+Bed 30,PT-1203,28,Low,SpO2,,Missing,Measure next,2
+Bed 39,PT-1266,29,Low,SpO2,97.0,Charted,,2
+Bed 18,PT-1119,30,Low,SpO2,96.0,Charted,,2
+Bed 20,PT-1133,31,Low,SpO2,94.0,Charted,,2
+Bed 33,PT-1224,32,Normal,SpO2,97.0,Charted,,2
+Bed 08,PT-1049,33,Normal,SpO2,96.0,Charted,,2
+Bed 14,PT-1091,34,Normal,SpO2,96.0,Charted,,2
+Bed 15,PT-1098,35,Normal,SpO2,98.0,Charted,,2
+Bed 19,PT-1126,36,Normal,SpO2,,Missing,Measure next,2
+Bed 25,PT-1168,37,Normal,SpO2,,Missing,,2
+Bed 26,PT-1175,38,Normal,SpO2,98.0,Charted,,2
+Bed 27,PT-1182,39,Normal,SpO2,99.0,Charted,,2
+Bed 34,PT-1231,40,Normal,SpO2,,Missing,,2
+Bed 04,PT-1021,1,High,BP,,Missing,,3
+Bed 06,PT-1035,2,High,BP,,Missing,Measure next,3
+Bed 07,PT-1042,3,High,BP,88.0,Charted,,3
+Bed 10,PT-1063,4,High,BP,81.0,Charted,,3
+Bed 22,PT-1147,5,High,BP,,Missing,Measure next,3
+Bed 32,PT-1217,6,High,BP,89.0,Charted,,3
+Bed 36,PT-1245,7,High,BP,,Missing,Measure next,3
+Bed 37,PT-1252,8,High,BP,101.0,Charted,,3
+Bed 13,PT-1084,9,High,BP,102.0,Charted,,3
+Bed 11,PT-1070,10,High,BP,,Missing,,3
+Bed 05,PT-1028,11,Medium,BP,,Missing,,3
+Bed 09,PT-1056,12,Medium,BP,,Missing,Measure next,3
+Bed 16,PT-1105,13,Medium,BP,,Missing,,3
+Bed 03,PT-1014,14,Medium,BP,106.0,Charted,,3
+Bed 28,PT-1189,15,Medium,BP,,Missing,,3
+Bed 21,PT-1140,16,Medium,BP,,Missing,,3
+Bed 35,PT-1238,17,Medium,BP,119.0,Charted,,3
+Bed 23,PT-1154,18,Medium,BP,,Missing,,3
+Bed 29,PT-1196,19,Low,BP,,Missing,,3
+Bed 12,PT-1077,20,Low,BP,113.0,Charted,,3
+Bed 02,PT-1007,21,Low,BP,103.0,Charted,,3
+Bed 01,PT-1000,22,Low,BP,122.0,Charted,,3
+Bed 24,PT-1161,23,Low,BP,106.0,Charted,,3
+Bed 17,PT-1112,24,Low,BP,,Missing,Measure next,3
+Bed 31,PT-1210,25,Low,BP,118.0,Charted,,3
+Bed 40,PT-1273,26,Low,BP,114.0,Charted,,3
+Bed 38,PT-1259,27,Low,BP,,Missing,,3
+Bed 30,PT-1203,28,Low,BP,,Missing,,3
+Bed 39,PT-1266,29,Low,BP,128.0,Charted,,3
+Bed 18,PT-1119,30,Low,BP,124.0,Charted,,3
+Bed 20,PT-1133,31,Low,BP,101.0,Charted,,3
+Bed 33,PT-1224,32,Normal,BP,,Missing,,3
+Bed 08,PT-1049,33,Normal,BP,120.0,Charted,,3
+Bed 14,PT-1091,34,Normal,BP,121.0,Charted,,3
+Bed 15,PT-1098,35,Normal,BP,,Missing,,3
+Bed 19,PT-1126,36,Normal,BP,,Missing,,3
+Bed 25,PT-1168,37,Normal,BP,123.0,Charted,,3
+Bed 26,PT-1175,38,Normal,BP,115.0,Charted,,3
+Bed 27,PT-1182,39,Normal,BP,130.0,Charted,,3
+Bed 34,PT-1231,40,Normal,BP,137.0,Charted,,3
+Bed 04,PT-1021,1,High,HR,99.0,Charted,,4
+Bed 06,PT-1035,2,High,HR,137.0,Charted,,4
+Bed 07,PT-1042,3,High,HR,,Missing,Measure next,4
+Bed 10,PT-1063,4,High,HR,133.0,Charted,,4
+Bed 22,PT-1147,5,High,HR,134.0,Charted,,4
+Bed 32,PT-1217,6,High,HR,108.0,Charted,,4
+Bed 36,PT-1245,7,High,HR,114.0,Charted,,4
+Bed 37,PT-1252,8,High,HR,127.0,Charted,,4
+Bed 13,PT-1084,9,High,HR,109.0,Charted,,4
+Bed 11,PT-1070,10,High,HR,,Missing,,4
+Bed 05,PT-1028,11,Medium,HR,105.0,Charted,,4
+Bed 09,PT-1056,12,Medium,HR,110.0,Charted,,4
+Bed 16,PT-1105,13,Medium,HR,97.0,Charted,,4
+Bed 03,PT-1014,14,Medium,HR,98.0,Charted,,4
+Bed 28,PT-1189,15,Medium,HR,89.0,Charted,,4
+Bed 21,PT-1140,16,Medium,HR,97.0,Charted,,4
+Bed 35,PT-1238,17,Medium,HR,110.0,Charted,,4
+Bed 23,PT-1154,18,Medium,HR,101.0,Charted,,4
+Bed 29,PT-1196,19,Low,HR,94.0,Charted,,4
+Bed 12,PT-1077,20,Low,HR,97.0,Charted,,4
+Bed 02,PT-1007,21,Low,HR,,Missing,,4
+Bed 01,PT-1000,22,Low,HR,99.0,Charted,,4
+Bed 24,PT-1161,23,Low,HR,,Missing,,4
+Bed 17,PT-1112,24,Low,HR,,Missing,,4
+Bed 31,PT-1210,25,Low,HR,93.0,Charted,,4
+Bed 40,PT-1273,26,Low,HR,82.0,Charted,,4
+Bed 38,PT-1259,27,Low,HR,78.0,Charted,,4
+Bed 30,PT-1203,28,Low,HR,82.0,Charted,,4
+Bed 39,PT-1266,29,Low,HR,,Missing,,4
+Bed 18,PT-1119,30,Low,HR,,Missing,Measure next,4
+Bed 20,PT-1133,31,Low,HR,87.0,Charted,,4
+Bed 33,PT-1224,32,Normal,HR,,Missing,,4
+Bed 08,PT-1049,33,Normal,HR,76.0,Charted,,4
+Bed 14,PT-1091,34,Normal,HR,75.0,Charted,,4
+Bed 15,PT-1098,35,Normal,HR,73.0,Charted,,4
+Bed 19,PT-1126,36,Normal,HR,82.0,Charted,,4
+Bed 25,PT-1168,37,Normal,HR,67.0,Charted,,4
+Bed 26,PT-1175,38,Normal,HR,76.0,Charted,,4
+Bed 27,PT-1182,39,Normal,HR,74.0,Charted,,4
+Bed 34,PT-1231,40,Normal,HR,,Missing,,4
+Bed 04,PT-1021,1,High,Temp,41.8,Charted,,6
+Bed 06,PT-1035,2,High,Temp,39.5,Charted,,6
+Bed 07,PT-1042,3,High,Temp,40.3,Charted,,6
+Bed 10,PT-1063,4,High,Temp,40.1,Charted,,6
+Bed 22,PT-1147,5,High,Temp,38.6,Charted,,6
+Bed 32,PT-1217,6,High,Temp,,Missing,,6
+Bed 36,PT-1245,7,High,Temp,,Missing,,6
+Bed 37,PT-1252,8,High,Temp,37.5,Charted,,6
+Bed 13,PT-1084,9,High,Temp,40.6,Charted,,6
+Bed 11,PT-1070,10,High,Temp,38.6,Charted,,6
+Bed 05,PT-1028,11,Medium,Temp,37.8,Charted,,6
+Bed 09,PT-1056,12,Medium,Temp,,Missing,,6
+Bed 16,PT-1105,13,Medium,Temp,37.7,Charted,,6
+Bed 03,PT-1014,14,Medium,Temp,,Missing,,6
+Bed 28,PT-1189,15,Medium,Temp,38.8,Charted,,6
+Bed 21,PT-1140,16,Medium,Temp,38.1,Charted,,6
+Bed 35,PT-1238,17,Medium,Temp,37.4,Charted,,6
+Bed 23,PT-1154,18,Medium,Temp,,Missing,,6
+Bed 29,PT-1196,19,Low,Temp,,Missing,,6
+Bed 12,PT-1077,20,Low,Temp,,Missing,,6
+Bed 02,PT-1007,21,Low,Temp,,Missing,,6
+Bed 01,PT-1000,22,Low,Temp,38.1,Charted,,6
+Bed 24,PT-1161,23,Low,Temp,36.8,Charted,,6
+Bed 17,PT-1112,24,Low,Temp,,Missing,,6
+Bed 31,PT-1210,25,Low,Temp,37.8,Charted,,6
+Bed 40,PT-1273,26,Low,Temp,36.8,Charted,,6
+Bed 38,PT-1259,27,Low,Temp,37.6,Charted,,6
+Bed 30,PT-1203,28,Low,Temp,37.0,Charted,,6
+Bed 39,PT-1266,29,Low,Temp,37.6,Charted,,6
+Bed 18,PT-1119,30,Low,Temp,35.6,Charted,,6
+Bed 20,PT-1133,31,Low,Temp,36.3,Charted,,6
+Bed 33,PT-1224,32,Normal,Temp,36.8,Charted,,6
+Bed 08,PT-1049,33,Normal,Temp,,Missing,Measure next,6
+Bed 14,PT-1091,34,Normal,Temp,36.6,Charted,,6
+Bed 15,PT-1098,35,Normal,Temp,,Missing,,6
+Bed 19,PT-1126,36,Normal,Temp,36.3,Charted,,6
+Bed 25,PT-1168,37,Normal,Temp,36.5,Charted,,6
+Bed 26,PT-1175,38,Normal,Temp,,Missing,,6
+Bed 27,PT-1182,39,Normal,Temp,,Missing,Measure next,6
+Bed 34,PT-1231,40,Normal,Temp,37.1,Charted,,6
+Bed 04,PT-1021,1,High,ACVPU,U,Charted,,5
+Bed 06,PT-1035,2,High,ACVPU,U,Charted,,5
+Bed 07,PT-1042,3,High,ACVPU,,Missing,,5
+Bed 10,PT-1063,4,High,ACVPU,A,Charted,,5
+Bed 22,PT-1147,5,High,ACVPU,,Missing,,5
+Bed 32,PT-1217,6,High,ACVPU,,Missing,Measure next,5
+Bed 36,PT-1245,7,High,ACVPU,,Missing,,5
+Bed 37,PT-1252,8,High,ACVPU,,Missing,,5
+Bed 13,PT-1084,9,High,ACVPU,A,Charted,,5
+Bed 11,PT-1070,10,High,ACVPU,A,Charted,,5
+Bed 05,PT-1028,11,Medium,ACVPU,A,Charted,,5
+Bed 09,PT-1056,12,Medium,ACVPU,,Missing,,5
+Bed 16,PT-1105,13,Medium,ACVPU,,Missing,,5
+Bed 03,PT-1014,14,Medium,ACVPU,A,Charted,,5
+Bed 28,PT-1189,15,Medium,ACVPU,A,Charted,,5
+Bed 21,PT-1140,16,Medium,ACVPU,,Missing,,5
+Bed 35,PT-1238,17,Medium,ACVPU,,Missing,Measure next,5
+Bed 23,PT-1154,18,Medium,ACVPU,A,Charted,,5
+Bed 29,PT-1196,19,Low,ACVPU,,Missing,,5
+Bed 12,PT-1077,20,Low,ACVPU,,Missing,,5
+Bed 02,PT-1007,21,Low,ACVPU,,Missing,,5
+Bed 01,PT-1000,22,Low,ACVPU,,Missing,,5
+Bed 24,PT-1161,23,Low,ACVPU,,Missing,,5
+Bed 17,PT-1112,24,Low,ACVPU,,Missing,,5
+Bed 31,PT-1210,25,Low,ACVPU,,Missing,Measure next,5
+Bed 40,PT-1273,26,Low,ACVPU,A,Charted,,5
+Bed 38,PT-1259,27,Low,ACVPU,A,Charted,,5
+Bed 30,PT-1203,28,Low,ACVPU,,Missing,,5
+Bed 39,PT-1266,29,Low,ACVPU,A,Charted,,5
+Bed 18,PT-1119,30,Low,ACVPU,A,Charted,,5
+Bed 20,PT-1133,31,Low,ACVPU,,Missing,,5
+Bed 33,PT-1224,32,Normal,ACVPU,,Missing,,5
+Bed 08,PT-1049,33,Normal,ACVPU,A,Charted,,5
+Bed 14,PT-1091,34,Normal,ACVPU,A,Charted,,5
+Bed 15,PT-1098,35,Normal,ACVPU,,Missing,,5
+Bed 19,PT-1126,36,Normal,ACVPU,A,Charted,,5
+Bed 25,PT-1168,37,Normal,ACVPU,,Missing,,5
+Bed 26,PT-1175,38,Normal,ACVPU,,Missing,Measure next,5
+Bed 27,PT-1182,39,Normal,ACVPU,A,Charted,,5
+Bed 34,PT-1231,40,Normal,ACVPU,,Missing,,5
