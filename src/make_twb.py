@@ -1,4 +1,4 @@
-"""Write tableau/Rounds_dashboards.twb, a Tableau workbook wired to the CSVs in tableau/.
+"""Write tableau/Rounds_dashboards_v3.twb, a Tableau workbook wired to the CSVs in tableau/.
 Open it in Tableau Desktop/Public; if it asks where the CSVs are, point it at the tableau/ folder."""
 import os, uuid, csv
 from xml.sax.saxutils import quoteattr as qa, escape
@@ -205,7 +205,7 @@ def main():
            '<worksheets>' + ''.join(xml_sheets) + '</worksheets>'
            '<dashboards>' + ''.join(dashes) + '</dashboards>'
            '<windows>' + windows + '</windows></workbook>')
-    out = os.path.join(TAB, 'Rounds_dashboards.twb')
+    out = os.path.join(TAB, 'Rounds_dashboards_v3.twb')
     open(out, 'w', encoding='utf-8').write(twb)
     print('wrote', out)
 
